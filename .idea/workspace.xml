@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1dab5cb-d478-4e3a-955a-73f2030af27f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lolts/client/navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lolts/client/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lolts/client/participant.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lolts/collections/participants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lolts/client/playerlist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lolts/client/playerlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lolts/server/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lolts/client/main.html" afterPath="$PROJECT_DIR$/lolts/client/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lolts/.meteor/packages" afterPath="$PROJECT_DIR$/lolts/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lolts/.meteor/versions" afterPath="$PROJECT_DIR$/lolts/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lolts/server/server.js" afterPath="$PROJECT_DIR$/lolts/server/server.js" />
     </list>
     <ignored path="ics415f15-final-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,8 +77,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lolts/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22173913">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.3942029">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -568,12 +558,12 @@
       <created>1447196794395</created>
       <option name="number" value="Default" />
       <updated>1447196794395</updated>
-      <workItem from="1447196795624" duration="9571000" />
+      <workItem from="1447196795624" duration="11329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9571000" />
+    <option name="totallyTimeSpent" value="11329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="389" y="0" width="1456" height="876" extended-state="0" />
@@ -695,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lolts/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22173913">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.3942029">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding />
         </state>
       </provider>

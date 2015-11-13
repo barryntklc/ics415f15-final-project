@@ -8,3 +8,19 @@
 
     return user;*/
 //});
+
+
+//http://stackoverflow.com/questions/16605549/cant-add-user-attribute-using-accounts-oncreateuser
+Accounts.onCreateUser(function(options, user) {
+
+    //test attributes
+    user.permission = 'default';
+    user.hello = '';
+    user.a = '';
+    user.b = '';
+    user.lol = '';
+
+    if (options.profile)
+        user.profile = options.profile;
+    return user;
+});
