@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+nav {
+    border: 1px solid black;
+}
+
+.navbutton {
+    font-family: 'Montserrat', sans-serif;
+
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+
+    text-transform: uppercase;
+}
