@@ -14,11 +14,16 @@
 Accounts.onCreateUser(function(options, user) {
 
     //test attributes
+    /*
     user.permission = 'default';
     user.hello = '';
     user.a = '';
     user.b = '';
     user.lol = '';
+    */
+
+    user.type = 'user';
+    user.accounts = [];
 
     if (options.profile)
         user.profile = options.profile;
