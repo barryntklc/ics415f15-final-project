@@ -29,3 +29,31 @@ Accounts.onCreateUser(function(options, user) {
         user.profile = options.profile;
     return user;
 });
+
+Meteor.startup(function () {
+    Meteor.methods({
+        addAccount: function () {
+            if (Meteor.userId() === false) {
+                throw new Meteor.Error("not-authorized");
+            }
+        },
+        verifyAdmin: function () {
+            console.log(Meteor.user().type);
+            if (Meteor.user().type = 'admin') {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    })
+});
+
+
+//Meteor.publish("users", function () {
+  //  return Meteor.user();//{
+        //$or: [
+        //    {private: {$ne: true}},
+        //    {owner: this.userId}
+        //]
+    //});
+//});
