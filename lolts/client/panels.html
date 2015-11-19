@@ -1,0 +1,12 @@
+<template name="panels">
+    <!--http://stackoverflow.com/questions/17849529/simple-user-checking-in-meteor-is-this-secure-->
+    <!--If a guest, show no panel-->
+    <!--If logged in as admin, show user and administrator panel-->
+    <!--If logged in as user, show user panel-->
+
+    <div class="spacer"></div>
+    {{> admin}}
+
+    <div class="spacer"></div>
+    {{> user}}
+</template>

@@ -1,6 +1,13 @@
-.mainlist {
-    border: 1px solid black;
-    min-height: 500px;
+.playerlist {
+//background-color: white;
+}
+
+.playeritem {
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 5px;
+//border: 1px solid black;
 
     background-color: white;
+//display: inline-block;
+    position: relative;
 }
