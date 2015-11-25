@@ -27,3 +27,12 @@ Template.hello.greeting = function() {
 console.log(Meteor.call('isAdmin'));
 console.log(hello.greeting);
     */
+
+
+Template.body.events({
+    /*
+    "mouseover": function(event) {
+        console.log("teamsButton clicked!");
+    }
+    */
+});

@@ -24,12 +24,14 @@ Accounts.onCreateUser(function(options, user) {
 
     user.type = 'user';
     user.accounts = [];
+    accounts.add('test');
 
     if (options.profile)
         user.profile = options.profile;
     return user;
 });
 
+/*Test serverside methods*/
 Meteor.startup(function () {
     Meteor.methods({
         addAccount: function () {
