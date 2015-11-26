@@ -22,8 +22,12 @@ $('*').mouseover(function() {
 */
 
 Template.admin.events({
-    "click .teams_button": function() {
-        console.log("teamsButton clicked!");
+    "click .teams_button": function(event, template) {
+        //console.log("teamsButton clicked!");
+
+        var team_size = template.$('#team_size').value;
+
+        console.log("Detected " + team_size);
     }
     /*"mouseover .teams_button": function() {
         console.log("teamsButton moused over!");
