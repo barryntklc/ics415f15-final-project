@@ -6,7 +6,7 @@
     height: 85px;
 }
 
-.teamsbutton {
+.teams_button {
     position: absolute;
     height: 85px;
     width: 120px;
@@ -23,10 +23,10 @@
     text-align: center;
 }
 
-.teamsbutton:hover {
+.teams_button:hover {
     box-shadow: 0px 0px 25px orange;
 }
 
-.teamsbutton-centercontainer {
+.teams_button-centercontainer {
     line-height: 85px;
 }

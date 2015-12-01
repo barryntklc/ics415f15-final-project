@@ -85,7 +85,7 @@ table tr td[class="formfield"] {
     //width: 50%;
 }
 
-.gobutton {
+.go_button {
     position: absolute;
     height: 120px;
     width: 120px;
@@ -102,15 +102,15 @@ table tr td[class="formfield"] {
     text-align: center;
 }
 
-.gobutton:hover {
+.go_button:hover {
     background-color: grey;
 }
 
-.gobutton-centercontainer {
+.go_button-centercontainer {
     line-height: 120px;
 }
 
-.teamsbutton {
+.teams_button {
     position: absolute;
     height: 85px;
     width: 120px;
@@ -127,10 +127,10 @@ table tr td[class="formfield"] {
     text-align: center;
 }
 
-.teamsbutton:hover {
+.teams_button:hover {
     box-shadow: 0px 0px 25px orange;
 }
 
-.teamsbutton-centercontainer {
+.teams_button-centercontainer {
     line-height: 85px;
 }
