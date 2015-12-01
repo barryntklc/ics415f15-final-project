@@ -32,7 +32,10 @@ Template.user.events({
         //console.log("SRANK VAL CHANGED TO: " + template.$('#srank').val());
 
         //console.log("Tier Value Changed");
-    }
+    },
+    //on keypress (enter)
+
+
 });
 
 /*
