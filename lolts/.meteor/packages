@@ -20,3 +20,7 @@ accounts-password
 accounts-ui
 less
 accounts-base
+meteorhacks:npm
+
+
+npm-container

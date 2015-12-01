@@ -28,6 +28,8 @@ Template.admin.events({
         var team_size = template.$('#team_size').val();
 
         console.log("Detected " + team_size);
+
+        //Meteor.call("ip_addr");
     }
     /*"mouseover .teams_button": function() {
         console.log("teamsButton moused over!");

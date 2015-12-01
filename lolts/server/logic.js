@@ -25,8 +25,10 @@ Meteor.methods({
         var name = sname;
         var tier = translate(stier, "tier");
         var rank = translate(srank, "rank");
-    },
 
+        Meteor.npmRequire('ip');
+        //console.log(ip.address());
+    },
     translate : function(data, type) {
         if (type === "tier") {
 
