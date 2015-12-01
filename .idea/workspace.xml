@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9ee350f5-6f5b-4306-93df-a4b95abc18bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lolts/server/logic.js" afterPath="$PROJECT_DIR$/lolts/server/logic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lolts/client/panels/user.js" afterPath="$PROJECT_DIR$/lolts/client/panels/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lolts/collections/participants.js" afterPath="$PROJECT_DIR$/lolts/collections/participants.js" />
     </list>
     <ignored path="ics415f15-final-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logic.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logic.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lolts/server/logic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36956522">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -118,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="participants.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="participants.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lolts/collections/participants.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.17246377">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -154,9 +154,9 @@
         <option value="$PROJECT_DIR$/lolts/client/main.js" />
         <option value="$PROJECT_DIR$/lolts/client/panels/admin.js" />
         <option value="$PROJECT_DIR$/lolts/server/server.js" />
-        <option value="$PROJECT_DIR$/lolts/collections/participants.js" />
-        <option value="$PROJECT_DIR$/lolts/server/logic.js" />
         <option value="$PROJECT_DIR$/lolts/client/panels/user.js" />
+        <option value="$PROJECT_DIR$/lolts/server/logic.js" />
+        <option value="$PROJECT_DIR$/lolts/collections/participants.js" />
       </list>
     </option>
   </component>
@@ -607,12 +607,12 @@
       <updated>1448449019478</updated>
       <workItem from="1448449020823" duration="3002000" />
       <workItem from="1448476821698" duration="10989000" />
-      <workItem from="1448578924560" duration="7414000" />
+      <workItem from="1448578924560" duration="7775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21405000" />
+    <option name="totallyTimeSpent" value="21766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="461" y="158" width="1456" height="876" extended-state="0" />
@@ -832,18 +832,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lolts/collections/participants.js">
+    <entry file="file://$PROJECT_DIR$/lolts/server/logic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lolts/server/logic.js">
+    <entry file="file://$PROJECT_DIR$/lolts/collections/participants.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36956522">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.17246377">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -21,13 +21,19 @@ Meteor.methods({
    //translate
 
     retrieve : function(sname, stier, srank) {
-        console.log(sname + stier + srank);
+        //console.log(sname + stier + srank);
+        var name = sname;
+        var tier = translate(stier, "tier");
+        var rank = translate(srank, "rank");
     },
 
-    translate : function(test, test2) {
-        //console.log(tier_alpha);
-        console.log(test);
-        console.log(test2);
-        console.log(Users.find());
+    translate : function(data, type) {
+        if (type === "tier") {
+
+        } else if (type === "rank") {
+
+        } else if (type === "team_size") {
+
+        }
     }
 });
