@@ -4,14 +4,15 @@
 
 Template.user.events({
     "click .go_button": function(event, template) {
-        //console.log("goButton clicked!");
 
         var sname = template.$('#sname').val();
         var stier = template.$('#stier').val();
         var srank = template.$('#srank').val();
 
-        if (sname.trim() != "") {
+        if (sname.trim() != "") { //if name is not null
             console.log("Detected " + sname + ' : ' + stier + ' ' + srank);
+
+            Meteor.call("retrieve", sname, stier, srank);
         } else {
             console.log("Please input a summoner name!");
         }

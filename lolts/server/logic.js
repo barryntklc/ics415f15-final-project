@@ -19,4 +19,15 @@ var teamsize_value = [5, 4, 3, 2];
 
 Meteor.methods({
    //translate
+
+    retrieve : function(sname, stier, srank) {
+        console.log(sname + stier + srank);
+    },
+
+    translate : function(test, test2) {
+        //console.log(tier_alpha);
+        console.log(test);
+        console.log(test2);
+        console.log(Users.find());
+    }
 });
