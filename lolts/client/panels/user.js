@@ -10,11 +10,11 @@ Template.user.events({
         var srank = template.$('#srank').val();
 
         if (sname.trim() != "") { //if name is not null
-            console.log("Detected " + sname + ' : ' + stier + ' ' + srank);
+            //console.log("Detected " + sname + ' : ' + stier + ' ' + srank);
 
             Meteor.call("retrieve", sname, stier, srank);
         } else {
-            console.log("Please input a summoner name!");
+            console.log("ERROR - Please input a summoner name!");
         }
     },
     "change #stier": function(event, template) {
@@ -35,7 +35,6 @@ Template.user.events({
         //console.log("Tier Value Changed");
     },
     //on keypress (enter)
-
 
 });
 
