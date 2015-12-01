@@ -25,7 +25,7 @@ Template.admin.events({
     "click .teams_button": function(event, template) {
         //console.log("teamsButton clicked!");
 
-        var team_size = template.$('#team_size').value;
+        var team_size = template.$('#team_size').val();
 
         console.log("Detected " + team_size);
     }
