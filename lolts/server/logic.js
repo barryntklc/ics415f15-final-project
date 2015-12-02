@@ -19,11 +19,13 @@ var teamsize_value = [5, 4, 3, 2];
 
 translate = function(data, type) {
     if (type === "tier") {
-        return "tier - success!"; //convert to numerical value
+        return tier_value[tier_alpha.indexOf(data)];
     } else if (type === "rank") {
-        return "rank - success!"; //convert to numerical value
+        return rank_value[rank_alpha.indexOf(data)];
     } else if (type === "team_size") {
-        return "team_size - success!"; //convert to numerical value
+        return teamsize_value[teamsize_alpha.indexOf(data)];
+    } else {
+        return 0;
     }
 }
 
@@ -35,9 +37,10 @@ Meteor.methods({
         var name = sname;
         var tier = translate(stier, "tier");
         var rank = translate(srank, "rank");
+        var total = tier + rank;
 
-        console.log("Detected " + sname + ' : ' + stier + ' ' + srank);
-        console.log("Converted to " + name + ' : ' + tier + ' ' + rank);
+        //console.log("Detected " + sname + ' : ' + stier + ' ' + srank);
+        console.log("Converted to " + name + ' : ' + tier + ' ' + rank + ' ' + total);
         //Meteor.npmRequire('ip');
         //console.log(ip.address());
     }
