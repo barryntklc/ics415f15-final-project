@@ -8,11 +8,11 @@ Template.user.events({
         var sname = template.$('#sname').val();
         var stier = template.$('#stier').val();
         var srank = template.$('#srank').val();
+        var user = Meteor.user();
 
         if (sname.trim() != "") { //if name is not null
-            //console.log("Detected " + sname + ' : ' + stier + ' ' + srank);
 
-            Meteor.call("retrieve", sname, stier, srank);
+            Meteor.call("retrieve", sname, stier, srank, user);
         } else {
             console.log("ERROR - Please input a summoner name!");
         }

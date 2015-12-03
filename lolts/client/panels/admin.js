@@ -23,13 +23,13 @@ $('*').mouseover(function() {
 
 Template.admin.events({
     "click .teams_button": function(event, template) {
-        //console.log("teamsButton clicked!");
 
         var team_size = template.$('#team_size').val();
 
-        console.log("Detected " + team_size);
+        Meteor.call("create_teams", team_size);
 
-        //Meteor.call("ip_addr");
+        //console.log("Detected " + team_size);
+
     }
     /*"mouseover .teams_button": function() {
         console.log("teamsButton moused over!");
