@@ -32,6 +32,15 @@ translate = function(data, type) {
 }
 
 add_participant = function(suser, sname, stier, srank, stotal) {
+    /**
+     *
+     * @param user or user tied to player
+     * @param name - player name
+     * @param tier - player tier
+     * @param rank - player rank
+     * @param total - numerical value of tier + rank
+     * @param created - date created
+     */
     Participants.insert({
         user: suser,
         name: sname,
@@ -44,30 +53,53 @@ add_participant = function(suser, sname, stier, srank, stotal) {
 
 Meteor.methods({
    //translate
+    /**
+     * Called when a user submits a player entry
+     *
+     * @param sname
+     * @param stier
+     * @param srank
+     * @param suser
+     */
     retrieve : function(sname, stier, srank, suser) {
         console.log("Player " + sname + ' (' + stier + ' ' + srank + ") has joined!");
 
-        var name = sname;
-        var tier = translate(stier, "tier");
-        var rank = translate(srank, "rank");
-        var total = tier + rank;
+        var total = translate(stier, "tier") + translate(srank, "rank");
 
-        add_participant(suser, name, tier, rank, total);
+        add_participant(suser, sname, stier, srank, total);
 
         console.log("DEBUG: name:" + name + ' tier:' + tier + ' rank:' + rank + ' total:' + total);
         //Meteor.npmRequire('ip');
         //console.log(ip.address());
     },
+
+    /**
+     * Called when an admin creates teams
+     *
+     * @param team_size
+     */
     create_teams : function (team_size) {
         console.log("An admin is starting a " + team_size + " match!");
         var size = translate(team_size, "team_size");
         console.log("DEBUG: team_size:" + size);
 
-        //check if there are enough players
 
-        //check if the remainder of players === 0
+
+        //check if there are enough participants
+            //if so, set polling: closed
+
+            //check if the remainder of participants === 0
+            //if there are leftover
+
     },
+
     is_admin : function () {
+        //TODO Complete
         return false;
+    },
+
+    get_ip : function () {
+        //TODO Complete
+        return "0.0.0.0:3000";
     }
 });
