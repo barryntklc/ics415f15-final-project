@@ -8,7 +8,9 @@
  * Contains server-side value translation and team seeding methods.
  */
 
-    //translation values
+/**
+ * Translates strings into numerical values.
+ */
 var tier_alpha = ["Unranked", "Bronze", "Silver", "Gold", "Platinum", "Diamond", "Master", "Challenger"];
 var tier_value = [1, 2, 3, 4, 5, 6, 7, 8];
 
@@ -18,7 +20,7 @@ var rank_value = [0.0, 0.2, 0.4, 0.6, 0.8, 1.0];
 var teamsize_alpha = ["5v5", "4v4", "3v3", "2v2"];
 var teamsize_value = [5, 4, 3, 2];
 
-translate = function(data, type) {
+translate = function (data, type) {
     if (type === "tier") {
         return tier_value[tier_alpha.indexOf(data)];
     } else if (type === "rank") {
@@ -31,7 +33,7 @@ translate = function(data, type) {
     }
 }
 
-add_participant = function(suser, sname, stier, srank, stotal) {
+add_participant = function (suser, sname, stier, srank, stotal) {
     /**
      *
      * @param user or user tied to player
@@ -51,8 +53,15 @@ add_participant = function(suser, sname, stier, srank, stotal) {
     });
 }
 
+get_participant = function (sname) {
+
+}
+
+remove_participant = function (sname) {
+
+}
+
 Meteor.methods({
-   //translate
     /**
      * Called when a user submits a player entry
      *
@@ -61,14 +70,14 @@ Meteor.methods({
      * @param srank
      * @param suser
      */
-    retrieve : function(sname, stier, srank, suser) {
+    retrieve: function (sname, stier, srank, suser) {
         console.log("Player " + sname + ' (' + stier + ' ' + srank + ") has joined!");
 
         var total = translate(stier, "tier") + translate(srank, "rank");
 
         add_participant(suser, sname, stier, srank, total);
 
-        console.log("DEBUG: name:" + name + ' tier:' + tier + ' rank:' + rank + ' total:' + total);
+        console.log("DEBUG: name:" + sname + ' tier value:' + translate(stier, "tier") + ' rank value:' + translate(srank, "rank") + ' total:' + total + '\n');
         //Meteor.npmRequire('ip');
         //console.log(ip.address());
     },
@@ -78,27 +87,26 @@ Meteor.methods({
      *
      * @param team_size
      */
-    create_teams : function (team_size) {
+    // http://stackoverflow.com/questions/1069666/sorting-javascript-object-by-property-value
+    create_teams: function (team_size) {
         console.log("An admin is starting a " + team_size + " match!");
         var size = translate(team_size, "team_size");
-        console.log("DEBUG: team_size:" + size);
-
-
+        console.log("DEBUG: team_size:" + size + '\n');
 
         //check if there are enough participants
-            //if so, set polling: closed
+        //if so, set polling: closed
 
-            //check if the remainder of participants === 0
-            //if there are leftover
+        //check if the remainder of participants === 0
+        //if there are leftover
 
     },
 
-    is_admin : function () {
+    is_admin: function () {
         //TODO Complete
         return false;
     },
 
-    get_ip : function () {
+    get_ip: function () {
         //TODO Complete
         return "0.0.0.0:3000";
     }
