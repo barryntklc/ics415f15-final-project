@@ -50,6 +50,10 @@ Meteor.startup(function () {
     })
 });
 
+Meteor.publish("participants", function () {
+    return Participants.find();
+});
+
 /*
 Meteor.methods({
     addTask: function (text) {

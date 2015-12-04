@@ -8,6 +8,11 @@ Accounts.onLogin(
     //Meteor.call
 );
 */
+Meteor.subscribe("participants");
+
+Meteor.startup({
+
+});
 
 Template.body.events({
 
