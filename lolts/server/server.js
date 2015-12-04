@@ -13,11 +13,16 @@
 //http://stackoverflow.com/questions/16605549/cant-add-user-attribute-using-accounts-oncreateuser
 Accounts.onCreateUser(function(options, user) {
 
+    /*
+    //THIS CAUSES THE EXCEPTION 'users is not defined'
     if (users.length === 0) {
         user.type = 'admin';
     } else {
         user.type = 'user';
     }
+    */
+
+    user.type = 'user';
     user.accounts = [];
     //accounts.add('test');
 
