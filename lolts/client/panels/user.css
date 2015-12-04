@@ -37,9 +37,10 @@ table tr td[class="formfield"] {
     text-align: center;
 }
 
+/*
 .go_button:hover {
     background-color: grey;
-}
+}*/
 
 .go_button-centercontainer {
     line-height: 120px;

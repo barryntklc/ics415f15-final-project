@@ -29,9 +29,17 @@ Template.user.events({
                 template.$('#srank').val("V");
             }
         }
-
-        //console.log("STIER VAL: " + template.$('#stier').val());
-        //console.log("SRANK VAL CHANGED TO: " + template.$('#srank').val());
-
+    },
+    "mousedown .go_button": function(event, template) {
+        template.$('.go_button').css("background-color", "#b37300");
+    },
+    "mouseup .go_button": function(event, template) {
+        template.$('.go_button').css("background-color", "#ffc04d");
+    },
+    "mouseenter .go_button": function(event, template) {
+        template.$('.go_button').css("background-color", "#ffc04d");
+    },
+    "mouseleave .go_button": function(event, template) {
+        template.$('.go_button').css("background-color", "#ffa500");
     },
 });

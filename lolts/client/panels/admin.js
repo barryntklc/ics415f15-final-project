@@ -12,11 +12,24 @@ Template.admin.events({
 
         //console.log("Detected " + team_size);
 
+    },
+
+    "mousedown .teams_button": function(event, template) {
+        template.$('.teams_button').css("background-color", "#b37300");
+        //template.$('.teams_button').css("box-shadow", "");
+    },
+    "mouseup .teams_button": function(event, template) {
+        template.$('.teams_button').css("background-color", "#ffc04d");
+        //template.$('.teams_button').css("box-shadow", "0px 0px 25px #ffc04d;");
+    },
+    "mouseenter .teams_button": function(event, template) {
+        template.$('.teams_button').css("background-color", "#ffc04d");
+        //template.$('.teams_button').css("box-shadow", "0px 0px 25px #ffc04d;");
+    },
+    "mouseleave .teams_button": function(event, template) {
+        template.$('.teams_button').css("background-color", "#ffa500");
+        //template.$('.teams_button').css("box-shadow", "");
     }
-    /*"mouseover .teams_button": function() {
-        console.log("teamsButton moused over!");
-        $(this._id).css('background-color', 'grey');
-    }*/
 });
 
 Meteor.methods({
