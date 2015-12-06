@@ -1,12 +1,6 @@
-Template.body.helpers({
-    participants: function () {
-        return Participants.find({}, {sort: {created: -1}});
-    }
-});
-
-Template.admin.events({
+Template.participant.events({
     "click .delete": function() {
         console.log("DEBUG: delete clicked!");
-
+        //Participants.remove(this._id); //TODO Activate this
     }
 });
