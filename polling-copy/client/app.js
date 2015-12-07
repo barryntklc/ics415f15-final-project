@@ -3,10 +3,11 @@
  */
 Template.body.helpers({
 
-    polls: function() {
-        return Polls.find();
+    participants: function() {
+        return Polls.find({}, {sort: {created: -1}});
     },
 });
+
 // adds index to each item
 UI.registerHelper('indexedArray', function(context, options) {
     if (context) {

@@ -8,11 +8,10 @@ Template.pollForm.events({
 
     // get the data we need from the form
     var newPoll = {
-      question: event.target.sname.value,
-      choices: [
-        {  text: event.target.tier.value},
-        {  text: event.target.rank.value}
-      ]
+      participant_name: event.target.sname.value,
+      participant_tier: event.target.tier.value,
+      participant_rank: event.target.rank.value,
+      created: new Date()
     };
 
     // create the new poll

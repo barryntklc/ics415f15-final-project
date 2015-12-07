@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/polling.iml" filepath="$PROJECT_DIR$/polling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/polling-copy.iml" filepath="$PROJECT_DIR$/polling-copy.iml" />
     </modules>
   </component>
 </project>

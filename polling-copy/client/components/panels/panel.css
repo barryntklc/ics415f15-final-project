@@ -1,0 +1,80 @@
+.adminpanel {
+    padding: 10px;
+    background-color: white;
+
+    position: relative;
+    height: 85px;
+}
+
+.teams_button {
+    position: absolute;
+    height: 85px;
+    width: 120px;
+    background-color: orange;
+
+    right: 0px;
+    top: 0px;
+
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+    text-align: center;
+}
+/*
+.teams_button:hover {
+    box-shadow: 0px 0px 25px #ffc04d;
+}*/
+
+.teams_button-centercontainer {
+    line-height: 85px;
+}
+
+.userpanel {
+    padding: 10px;
+    background-color: white;
+
+    position: relative;
+    height: 120px;
+}
+
+table tr td {
+    padding: 5px;
+}
+
+table tr td[class="formlabel"] {
+    text-align: right;
+    font-weight: bold;
+    min-width: 135px;
+}
+
+table tr td[class="formfield"] {
+//width: 50%;
+}
+
+.go_button {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: orange;
+
+    right: 0px;
+    top: 0px;
+
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+
+    text-align: center;
+}
+
+/*
+.go_button:hover {
+    background-color: grey;
+}*/
+
+.go_button-centercontainer {
+    line-height: 120px;
+}

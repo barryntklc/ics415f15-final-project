@@ -1,5 +1,7 @@
 <template name="pollForm">
   {{#if currentUser}}
+  <div class="spacer"></div>
+  <!--
   <form>
     <label>IP</label>
     <div>
@@ -11,9 +13,10 @@
         <option value="2v2">2v2</option>
       </select>
     </div>
-
     <button class="btn btn-lg btn-primary btn-block">Teams</button>
-  </form>
+  </form>-->
+  {{ >adminpanel }}
+  <div class="spacer"></div>
   <form>
     <div class="form-group">
       <label>Summoner Name</label>
@@ -44,5 +47,7 @@
 
     <button type="submit" class="btn btn-lg btn-primary btn-block">Enter</button>
   </form>
+  {{ >userpanel }}
   {{/if}}
+  <div class="spacer"></div>
 </template>
