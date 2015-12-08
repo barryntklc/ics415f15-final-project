@@ -4,6 +4,6 @@
 // attach events to our poll template
 Template.participant.events({
     "click .delete" : function () {
-        Polls.remove(this._id);
+        Participants.remove(this._id);
     }
 });

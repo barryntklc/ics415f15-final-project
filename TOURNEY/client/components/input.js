@@ -7,7 +7,7 @@ Template.pollForm.events({
     event.preventDefault();
 
     // get the data we need from the form
-    var newPoll = {
+    var newParticipant = {
       participant_name: event.target.sname.value,
       participant_tier: event.target.tier.value,
       participant_rank: event.target.rank.value,
@@ -15,6 +15,6 @@ Template.pollForm.events({
     };
 
     // create the new poll
-    Polls.insert(newPoll);
+    Participants.insert(newParticipant);
   }
 });

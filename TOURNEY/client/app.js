@@ -4,7 +4,7 @@
 Template.body.helpers({
 
     participants: function() {
-        return Polls.find({}, {sort: {created: -1}});
+        return Participants.find({}, {sort: {created: -1}});
     },
 });
 

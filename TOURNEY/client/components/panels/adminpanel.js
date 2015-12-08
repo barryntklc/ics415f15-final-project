@@ -11,7 +11,6 @@ Template.adminpanel.events({
         //Meteor.call("create_teams", team_size); //TODO not defined in server yet
 
         //console.log("Detected " + team_size);
-
     },
 
     "mousedown .teams_button": function(event, template) {
