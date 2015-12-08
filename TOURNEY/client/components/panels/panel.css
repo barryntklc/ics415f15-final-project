@@ -12,19 +12,8 @@
     position: relative;
 }
 
-.createteams {
-    height: 85px;
-}
-.promoteuser {
-    height: 60px;
-}
-.userpanel {
-    height: 120px;
-}
-
-.teams_button {
+.custom_submit{
     position: absolute;
-    height: 85px;
     width: 120px;
     background-color: orange;
 
@@ -34,13 +23,8 @@
     font-family: 'Oswald', sans-serif;
     color: white;
     font-weight: bold;
-    font-size: 20px;
 
     text-align: center;
-}
-
-.teams_button-centercontainer {
-    line-height: 85px;
 }
 
 table tr td {
@@ -57,23 +41,35 @@ table tr td[class="formfield"] {
 //width: 50%;
 }
 
-.go_button {
-    position: absolute;
-    height: 120px;
-    width: 120px;
-    background-color: orange;
-
-    right: 0px;
-    top: 0px;
-
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    font-weight: bold;
-    font-size: 45px;
-
-    text-align: center;
+.createteams {
+    height: 85px;
+}
+.teams_button {
+    height: 85px;
+    font-size: 20px;
+}
+.teams_button-centercontainer {
+    line-height: 85px;
 }
 
+.addparticipant {
+    height: 120px;
+}
+.go_button {
+    height: 120px;
+    font-size: 45px;
+}
 .go_button-centercontainer {
     line-height: 120px;
+}
+
+.promoteuser {
+    height: 60px;
+}
+.promote_button {
+    height: 60px;
+    font-size: 15px;
+}
+.promote_button-centercontainer {
+    line-height: 60px;
 }

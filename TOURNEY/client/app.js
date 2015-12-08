@@ -20,16 +20,21 @@ Template.body.helpers({
 });
 
 Template.body.events({
-    "click .addadmin" : function () {
-        Session.set("templateName", "addadmin");
-        //document.$('.addadmin').css("background-color", "orange");
-        //.$('.tourney').css("background-color", "white");
-    },
     "click .tourney" : function () {
         Session.set("templateName", "input");
         //template.$('.tourney').css("background-color", "orange");
         //template.$('.addadmin').css("background-color", "white");
-    }
+    },
+    "click .admin" : function () {
+        Session.set("templateName", "admin");
+        //document.$('.addadmin').css("background-color", "orange");
+        //.$('.tourney').css("background-color", "white");
+    },
+    "click .info" : function () {
+        Session.set("templateName", "info");
+        //document.$('.addadmin').css("background-color", "orange");
+        //.$('.tourney').css("background-color", "white");
+    },
 });
 
 // adds index to each item

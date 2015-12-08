@@ -5,7 +5,7 @@
  * @date 12/08/2015
  */
 
-Template.userpanel.events({
+Template.addparticipant.events({
     "change #stier": function(event, template) {
 
         if (template.$('#stier').val() === "Unranked" || template.$('#stier').val() === "Master" || template.$('#stier').val() === "Challenger") {
