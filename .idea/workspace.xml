@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ee350f5-6f5b-4306-93df-a4b95abc18bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js" afterPath="$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TOURNEY/client/components/admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TOURNEY/client/components/admin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TOURNEY/client/components/navbar.js" />
+      <change type="MOVED" beforePath="C:\Users\Chunmeista\Documents\GitHub\ics415f15-final-project\TOURNEY\client\components\panels\adminpanel.html" afterPath="$PROJECT_DIR$/TOURNEY/client/components/panels/createteams.html" />
+      <change type="MOVED" beforePath="C:\Users\Chunmeista\Documents\GitHub\ics415f15-final-project\TOURNEY\client\components\panels\adminpanel.js" afterPath="$PROJECT_DIR$/TOURNEY/client/components/panels/createteams.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/app.body.html" afterPath="$PROJECT_DIR$/TOURNEY/client/app.body.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ics415f15-final-project.iml" afterPath="$PROJECT_DIR$/ics415f15-final-project.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/input.css" afterPath="$PROJECT_DIR$/TOURNEY/client/components/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/app.js" afterPath="$PROJECT_DIR$/TOURNEY/client/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/input.html" afterPath="$PROJECT_DIR$/TOURNEY/client/components/input.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/input.js" afterPath="$PROJECT_DIR$/TOURNEY/client/components/input.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css" afterPath="$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/server/server.js" afterPath="$PROJECT_DIR$/TOURNEY/server/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/navbar.html" afterPath="$PROJECT_DIR$/TOURNEY/client/components/navbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/server/participants.methods.js" afterPath="$PROJECT_DIR$/TOURNEY/server/participants.methods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/server/users.methods.js" afterPath="$PROJECT_DIR$/TOURNEY/server/users.methods.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ics415f15-final-project.iws" />
@@ -33,101 +36,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.head.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.head.html">
+      <file leaf-file-name="input.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="participant.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.body.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.body.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.css">
+      <file leaf-file-name="userpanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="participants.methods.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/server/participants.methods.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15232974">
-              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.css">
+      <file leaf-file-name="input.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="participant.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.css">
+      <file leaf-file-name="createteams.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/createteams.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.04678899">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="panel.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css">
+      <file leaf-file-name="navbar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#46#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/admin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminpanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js">
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/server/server.js">
+      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createteams.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/createteams.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -138,6 +143,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Html5" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -177,24 +184,29 @@
         <option value="$PROJECT_DIR$/TOURNEY/collections/polls.js" />
         <option value="$PROJECT_DIR$/lolts/server/server.js" />
         <option value="$PROJECT_DIR$/lolts/server/methods.participants.js" />
-        <option value="$PROJECT_DIR$/TOURNEY/client/app.js" />
         <option value="$PROJECT_DIR$/TOURNEY/collections/participants.js" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/participant.js" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.js" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/participant.html" />
-        <option value="$PROJECT_DIR$/TOURNEY/client/components/navbar.html" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.html" />
-        <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.html" />
         <option value="$PROJECT_DIR$/TOURNEY/client/app.head.html" />
-        <option value="$PROJECT_DIR$/TOURNEY/server/participants.methods.js" />
-        <option value="$PROJECT_DIR$/TOURNEY/server/users.methods.js" />
-        <option value="$PROJECT_DIR$/TOURNEY/client/components/input.html" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/input.js" />
-        <option value="$PROJECT_DIR$/TOURNEY/client/app.body.html" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/input.css" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js" />
         <option value="$PROJECT_DIR$/TOURNEY/server/server.js" />
+        <option value="$PROJECT_DIR$/TOURNEY/server/participants.methods.js" />
+        <option value="$PROJECT_DIR$/TOURNEY/server/users.methods.js" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/promote.css" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.html" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/addadmin.css" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/app.body.html" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/addadmin.html" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/input.html" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/navbar.html" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/createteams.js" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/app.js" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/navbar.js" />
       </list>
     </option>
   </component>
@@ -250,6 +262,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ics415f15-final-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ics415f15-final-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ics415f15-final-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TOURNEY_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,6 +429,8 @@
     <property name="js.meteor.library.was.enabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -682,12 +714,12 @@
       <workItem from="1449390649191" duration="8468000" />
       <workItem from="1449430535766" duration="1198000" />
       <workItem from="1449555517699" duration="11513000" />
-      <workItem from="1449599797458" duration="1552000" />
+      <workItem from="1449599797458" duration="5995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70850000" />
+    <option name="totallyTimeSpent" value="75293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2418" height="1326" extended-state="6" />
@@ -759,7 +791,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.html">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/createteams.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
@@ -829,13 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY_test/pages/group.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TOURNEY_test/pages/guest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -854,99 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/server/users.methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.body.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -959,7 +891,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.css">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/server/participants.methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/server/users.methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY_test/pages/group.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.461538">
+          <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -975,10 +947,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.css">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -986,31 +958,121 @@
     <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/server/server.js">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/server/participants.methods.js">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15232974">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/createteams.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/createteams.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04678899">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>

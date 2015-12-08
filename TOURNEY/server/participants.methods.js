@@ -10,4 +10,7 @@ Meteor.methods({
      * exists
      * @return true if a participant exists, false otherwise
      */
+    exists : function() {
+
+    }
 });

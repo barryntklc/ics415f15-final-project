@@ -10,4 +10,7 @@ Meteor.methods({
      * isAdmin
      * @return true if the current user is an admin, false otherwise
      */
+    isAdmin : function() {
+
+    }
 });

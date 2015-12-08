@@ -1,6 +1,11 @@
 <template name="navbar">
     <nav>
-        <div class="navbutton">TOURNEY!</div>
+        {{#if currentUser}}
+            <div class="navbutton tourney">TOURNEY!</div>
+            <div class="navbutton addadmin">ADMIN</div>
+        {{else}}
+            <div class="navbutton">TOURNEY!</div>
+        {{/if}}
         <div class="navbutton">{{> loginButtons}}</div>
     </nav>
 </template>
