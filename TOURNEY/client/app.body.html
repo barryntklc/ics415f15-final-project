@@ -10,7 +10,7 @@
             <!--{{ >input }}-->
             {{#if currentUser}}
                 <div class="spacer"></div>
-                {{ >Template.dynamic template=page }}
+                {{ >Template.dynamic template=page }} <!--How would we exclude info?-->
             {{else}}
                 <div class="spacer"></div>
             {{/if}}
