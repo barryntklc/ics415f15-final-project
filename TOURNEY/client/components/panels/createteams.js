@@ -5,7 +5,7 @@
  * @date 12/08/2015
  */
 
-Template.adminpanel.events({
+Template.createteams.events({
     "click .teams_button": function(event, template) {
         console.log("DEBUG: teams_button clicked!");
 

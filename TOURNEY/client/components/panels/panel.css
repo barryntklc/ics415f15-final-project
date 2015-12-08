@@ -5,12 +5,21 @@
  * @date 12/08/2015
  */
 
-.adminpanel {
+.panelmain {
     padding: 10px;
     background-color: white;
 
     position: relative;
+}
+
+.createteams {
     height: 85px;
+}
+.promoteuser {
+    height: 60px;
+}
+.userpanel {
+    height: 120px;
 }
 
 .teams_button {
@@ -32,14 +41,6 @@
 
 .teams_button-centercontainer {
     line-height: 85px;
-}
-
-.userpanel {
-    padding: 10px;
-    background-color: white;
-
-    position: relative;
-    height: 120px;
 }
 
 table tr td {
