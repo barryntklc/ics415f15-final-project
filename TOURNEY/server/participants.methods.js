@@ -1,7 +1,13 @@
 /**
- * Created by Chunmeista on 12/8/2015.
+ *
+ *
+ * @author Erik Huang, Barryn Chun
+ * @date 12/08/2015
  */
 
 Meteor.methods({
-
+    /**
+     * exists
+     * @return true if a participant exists, false otherwise
+     */
 });

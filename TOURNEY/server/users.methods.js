@@ -1,7 +1,13 @@
 /**
- * Created by Chunmeista on 12/8/2015.
+ *
+ *
+ * @author Erik Huang, Barryn Chun
+ * @date 12/08/2015
  */
 
 Meteor.methods({
-
+    /**
+     * isAdmin
+     * @return true if the current user is an admin, false otherwise
+     */
 });
