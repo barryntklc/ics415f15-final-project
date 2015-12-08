@@ -34,7 +34,7 @@ Template.body.events({
         Session.set("templateName", "info");
         //document.$('.addadmin').css("background-color", "orange");
         //.$('.tourney').css("background-color", "white");
-    },
+    }
 });
 
 // adds index to each item
