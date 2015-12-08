@@ -1,3 +1,6 @@
 /**
- * Created by Chunmeista on 12/8/2015.
+ *
+ *
+ * @author Barryn Chun, Erik Huang
+ * @date 12/08/2015
  */
