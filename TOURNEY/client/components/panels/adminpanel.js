@@ -11,7 +11,7 @@ Template.adminpanel.events({
 
         var team_size = template.$('#team_size').val();
 
-        //Meteor.call("create_teams", team_size); //TODO not defined in server yet
+        Meteor.call("createTeams", team_size); //TODO not defined in server yet
 
         //console.log("Detected " + team_size);
     },

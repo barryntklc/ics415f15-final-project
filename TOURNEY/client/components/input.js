@@ -5,7 +5,7 @@
  * @date 12/08/2015
  */
 
-Template.pollForm.events({
+Template.input.events({
 
   // handle the form submission
   'submit form': function(event) {

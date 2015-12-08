@@ -2,75 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ee350f5-6f5b-4306-93df-a4b95abc18bd" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\.meteor\.finished-upgraders" afterPath="$PROJECT_DIR$/old/lolts/.meteor/.finished-upgraders" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\.meteor\.gitignore" afterPath="$PROJECT_DIR$/old/lolts/.meteor/.gitignore" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\.meteor\.id" afterPath="$PROJECT_DIR$/old/lolts/.meteor/.id" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\.meteor\packages" afterPath="$PROJECT_DIR$/old/lolts/.meteor/packages" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\.meteor\packages.json" afterPath="$PROJECT_DIR$/old/lolts/.meteor/packages.json" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\.meteor\platforms" afterPath="$PROJECT_DIR$/old/lolts/.meteor/platforms" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\.meteor\release" afterPath="$PROJECT_DIR$/old/lolts/.meteor/release" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\.meteor\versions" afterPath="$PROJECT_DIR$/old/lolts/.meteor/versions" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\main.css" afterPath="$PROJECT_DIR$/old/lolts/client/main.css" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\main.html" afterPath="$PROJECT_DIR$/old/lolts/client/main.html" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\main.js" afterPath="$PROJECT_DIR$/old/lolts/client/main.js" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\navbar.css" afterPath="$PROJECT_DIR$/old/lolts/client/navbar.css" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\navbar.html" afterPath="$PROJECT_DIR$/old/lolts/client/navbar.html" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels.html" afterPath="$PROJECT_DIR$/old/lolts/client/panels.html" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels\admin.css" afterPath="$PROJECT_DIR$/old/lolts/client/panels/admin.css" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels\admin.html" afterPath="$PROJECT_DIR$/old/lolts/client/panels/admin.html" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels\admin.js" afterPath="$PROJECT_DIR$/old/lolts/client/panels/admin.js" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels\participant.css" afterPath="$PROJECT_DIR$/old/lolts/client/panels/participant.css" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels\participant.html" afterPath="$PROJECT_DIR$/old/lolts/client/panels/participant.html" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels\participant.js" afterPath="$PROJECT_DIR$/old/lolts/client/panels/participant.js" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels\participant_list.css" afterPath="$PROJECT_DIR$/old/lolts/client/panels/participant_list.css" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels\participant_list.html" afterPath="$PROJECT_DIR$/old/lolts/client/panels/participant_list.html" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels\user.css" afterPath="$PROJECT_DIR$/old/lolts/client/panels/user.css" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels\user.html" afterPath="$PROJECT_DIR$/old/lolts/client/panels/user.html" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\client\panels\user.js" afterPath="$PROJECT_DIR$/old/lolts/client/panels/user.js" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\collections\participants.js" afterPath="$PROJECT_DIR$/old/lolts/collections/participants.js" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\collections\users.js" afterPath="$PROJECT_DIR$/old/lolts/collections/users.js" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\packages.json" afterPath="$PROJECT_DIR$/old/lolts/packages.json" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\packages\npm-container\.npm\package\.gitignore" afterPath="$PROJECT_DIR$/old/lolts/packages/npm-container/.npm/package/.gitignore" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\packages\npm-container\.npm\package\README" afterPath="$PROJECT_DIR$/old/lolts/packages/npm-container/.npm/package/README" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\packages\npm-container\.npm\package\npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/old/lolts/packages/npm-container/.npm/package/npm-shrinkwrap.json" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\packages\npm-container\index.js" afterPath="$PROJECT_DIR$/old/lolts/packages/npm-container/index.js" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\packages\npm-container\package.js" afterPath="$PROJECT_DIR$/old/lolts/packages/npm-container/package.js" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\server\logic.js" afterPath="$PROJECT_DIR$/old/lolts/server/logic.js" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\lolts\server\server.js" afterPath="$PROJECT_DIR$/old/lolts/server/server.js" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.idea\.name" afterPath="$PROJECT_DIR$/TOURNEY/.idea/.name" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.idea\compiler.xml" afterPath="$PROJECT_DIR$/TOURNEY/.idea/compiler.xml" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.idea\copyright\profiles_settings.xml" afterPath="$PROJECT_DIR$/TOURNEY/.idea/copyright/profiles_settings.xml" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.idea\jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/TOURNEY/.idea/jsLibraryMappings.xml" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.idea\misc.xml" afterPath="$PROJECT_DIR$/TOURNEY/.idea/misc.xml" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.idea\modules.xml" afterPath="$PROJECT_DIR$/TOURNEY/.idea/modules.xml" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.idea\uiDesigner.xml" afterPath="$PROJECT_DIR$/TOURNEY/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.idea\vcs.xml" afterPath="$PROJECT_DIR$/TOURNEY/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.idea\workspace.xml" afterPath="$PROJECT_DIR$/TOURNEY/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.meteor\.finished-upgraders" afterPath="$PROJECT_DIR$/TOURNEY/.meteor/.finished-upgraders" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.meteor\.gitignore" afterPath="$PROJECT_DIR$/TOURNEY/.meteor/.gitignore" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.meteor\.id" afterPath="$PROJECT_DIR$/TOURNEY/.meteor/.id" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.meteor\packages" afterPath="$PROJECT_DIR$/TOURNEY/.meteor/packages" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.meteor\platforms" afterPath="$PROJECT_DIR$/TOURNEY/.meteor/platforms" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.meteor\release" afterPath="$PROJECT_DIR$/TOURNEY/.meteor/release" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\.meteor\versions" afterPath="$PROJECT_DIR$/TOURNEY/.meteor/versions" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\client\app.css" afterPath="$PROJECT_DIR$/TOURNEY/client/app.css" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\client\components\input.css" afterPath="$PROJECT_DIR$/TOURNEY/client/components/input.css" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\client\components\navbar.css" afterPath="$PROJECT_DIR$/TOURNEY/client/components/navbar.css" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\client\components\participant.css" afterPath="$PROJECT_DIR$/TOURNEY/client/components/participant.css" />
-      <change type="MOVED" beforePath="C:\Users\Chunmeista\My Documents\GitHub\ics415f15-final-project\polling-copy\polling-copy.iml" afterPath="$PROJECT_DIR$/TOURNEY/polling-copy.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js" afterPath="$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/app.head.html" afterPath="$PROJECT_DIR$/TOURNEY/client/app.head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/app.js" afterPath="$PROJECT_DIR$/TOURNEY/client/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/app.body.html" afterPath="$PROJECT_DIR$/TOURNEY/client/app.body.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ics415f15-final-project.iml" afterPath="$PROJECT_DIR$/ics415f15-final-project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/input.css" afterPath="$PROJECT_DIR$/TOURNEY/client/components/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/input.html" afterPath="$PROJECT_DIR$/TOURNEY/client/components/input.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/input.js" afterPath="$PROJECT_DIR$/TOURNEY/client/components/input.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css" afterPath="$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/participant.html" afterPath="$PROJECT_DIR$/TOURNEY/client/components/participant.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/participant.js" afterPath="$PROJECT_DIR$/TOURNEY/client/components/participant.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/collections/participants.js" afterPath="$PROJECT_DIR$/TOURNEY/collections/participants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/server/participants.methods.js" afterPath="$PROJECT_DIR$/TOURNEY/server/participants.methods.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/server/server.js" afterPath="$PROJECT_DIR$/TOURNEY/server/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.js" afterPath="$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TOURNEY/server/users.methods.js" afterPath="$PROJECT_DIR$/TOURNEY/server/users.methods.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ics415f15-final-project.iws" />
@@ -94,71 +33,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="input.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userpanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userpanel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminpanel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="participants.methods.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/server/participants.methods.js">
+      <file leaf-file-name="participant.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.methods.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/server/users.methods.js">
+      <file leaf-file-name="app.body.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.body.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1880531">
-              <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -174,10 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.html">
+      <file leaf-file-name="participants.methods.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/server/participants.methods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.15232974">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -189,6 +98,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panel.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminpanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOURNEY/server/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -240,21 +179,22 @@
         <option value="$PROJECT_DIR$/lolts/server/methods.participants.js" />
         <option value="$PROJECT_DIR$/TOURNEY/client/app.js" />
         <option value="$PROJECT_DIR$/TOURNEY/collections/participants.js" />
-        <option value="$PROJECT_DIR$/TOURNEY/server/server.js" />
-        <option value="$PROJECT_DIR$/TOURNEY/client/components/input.js" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/participant.js" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.js" />
-        <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css" />
-        <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js" />
-        <option value="$PROJECT_DIR$/TOURNEY/client/app.body.html" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/participant.html" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/navbar.html" />
-        <option value="$PROJECT_DIR$/TOURNEY/client/components/input.html" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.html" />
         <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.html" />
         <option value="$PROJECT_DIR$/TOURNEY/client/app.head.html" />
         <option value="$PROJECT_DIR$/TOURNEY/server/participants.methods.js" />
         <option value="$PROJECT_DIR$/TOURNEY/server/users.methods.js" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/input.html" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/input.js" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/app.body.html" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/input.css" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css" />
+        <option value="$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js" />
+        <option value="$PROJECT_DIR$/TOURNEY/server/server.js" />
       </list>
     </option>
   </component>
@@ -266,10 +206,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1432" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1040" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="2418" />
+    <option name="height" value="1326" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -295,8 +235,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -447,6 +385,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -659,6 +599,9 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -739,14 +682,15 @@
       <workItem from="1449390649191" duration="8468000" />
       <workItem from="1449430535766" duration="1198000" />
       <workItem from="1449555517699" duration="11513000" />
+      <workItem from="1449599797458" duration="1552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69298000" />
+    <option name="totallyTimeSpent" value="70850000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1432" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="-9" y="-9" width="2418" height="1326" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -757,11 +701,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27890626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27872342" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -771,8 +715,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -791,24 +735,83 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/user.html">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/admin.css">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/user.css">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/server/participants.methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/server/users.methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -847,224 +850,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/collections/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/packages.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/participant_list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/user.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="24" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/participant_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="41" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/participant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="84" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/participant.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/participant.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="62" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/client/panels/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/collections/participants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/server/logic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/lolts/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TOURNEY/collections/participants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,23 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,19 +868,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.body.html">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.css">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/server/users.methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1124,18 +903,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.css">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.html">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1148,7 +927,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/userpanel.html">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/input.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1156,34 +959,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.html">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/navbar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/client/app.head.html">
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/participant.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/panel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/client/components/panels/adminpanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOURNEY/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TOURNEY/server/participants.methods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.15232974">
           <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TOURNEY/server/users.methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1880531">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
           <folding />
         </state>
       </provider>

@@ -44,47 +44,14 @@ Accounts.onCreateUser(function(options, user) {
 });
 
 Meteor.methods({
-    test : function () {
-        console.log("test called!");
+    createTeams : function (team_size) {
+        console.log("createTeams called with team size: " + team_size);
+
+        //translates all participants' tiers/ranks into numerical values
     }
-    //isAdmin
-    //exists
 });
 
 // run this when the meteor app is started
 Meteor.startup(function() {
-
-    //Participants.find()
-    // if there are no polls available create sample data
-    /*
-    if (Participants.find().count() === 0) {
-
-        // create sample polls
-        var samplePolls = [
-            {
-                question: 'Is Meteor awesome?',
-                choices: [
-                    { text: 'Of course!', votes: 0 },
-                    { text: 'Eh', votes: 0 },
-                    { text: 'No. I like plain JS', votes: 0 }
-                ]
-            },
-            {
-                question: 'Is CSS3 Flexbox the greatest thing since array_slice(bread)?',
-                choices: [
-                    { text: '100% yes', votes: 0 },
-                    { text: '200% yes', votes: 0 },
-                    { text: '300% yes', votes: 0 }
-                ]
-            }
-        ];
-
-        // loop over each sample poll and insert into database
-        _.each(samplePolls, function(poll) {
-            Participants.insert(poll);
-        });
-
-    }
-    */
 
 });
