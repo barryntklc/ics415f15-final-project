@@ -28,6 +28,7 @@ Template.addparticipant.events({
             participant_name: template.$('#sname').val(),
             participant_tier: template.$('#stier').val(),
             participant_rank: template.$('#srank').val(),
+            owner: Meteor.userId(),
             created: new Date()
         };
 

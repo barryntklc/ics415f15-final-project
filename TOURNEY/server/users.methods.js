@@ -10,7 +10,9 @@ Meteor.methods({
      * isAdmin
      * @return true if the current user is an admin, false otherwise
      */
-    isAdmin : function() {
-
+    isAdmin : function(user) {
+        var x = Meteor.users.findOne({_id: user}).type;
+        console.log(x);
+        return x;
     }
 });

@@ -9,31 +9,28 @@ Meteor.startup(function() {
     Session.setDefault("templateName", "input");
 });
 
-Template.body.helpers({
+Accounts.onLogin(function() {
+    Session.setDefault("templateName", "input");
+});
 
+Template.body.helpers({
     participants: function() {
         return Participants.find({}, {sort: {created: -1}});
     },
     page: function() {
         return Session.get("templateName");
-    }
+    },
 });
 
 Template.body.events({
     "click .tourney" : function () {
         Session.set("templateName", "input");
-        //template.$('.tourney').css("background-color", "orange");
-        //template.$('.addadmin').css("background-color", "white");
     },
     "click .admin" : function () {
         Session.set("templateName", "admin");
-        //document.$('.addadmin').css("background-color", "orange");
-        //.$('.tourney').css("background-color", "white");
     },
     "click .info" : function () {
         Session.set("templateName", "info");
-        //document.$('.addadmin').css("background-color", "orange");
-        //.$('.tourney').css("background-color", "white");
     }
 });
 
@@ -45,4 +42,17 @@ UI.registerHelper('indexedArray', function(context, options) {
             return item;
         });
     }
+});
+
+Meteor.methods({
+    /*
+    isAdmin: function() {
+        Meteor.call("isAdmin", Meteor.userId(), function(error, data) {
+            if (error) {
+                console.log(error);
+            }
+            console.log("User type: " + data);
+            return data;
+        });
+    }*/
 });
