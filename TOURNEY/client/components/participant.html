@@ -2,9 +2,11 @@
 
     <div class="participant" data-id="{{ _id }}">
         {{#if currentUser}}
-        <button class="delete">&times;</button>
+            {{#if admin}}
+                <button class="delete">&times;</button>&nbsp;
+            {{/if}}
         {{/if}}
-        &nbsp; <strong>{{ participant_name }}</strong> &nbsp; ({{ participant_tier }} {{ participant_rank }})
+        <strong>{{ participant_name }}</strong> &nbsp; ({{ participant_tier }} {{ participant_rank }})
 
     </div>
 </template>

@@ -16,6 +16,9 @@ body {
 .spacer {
     height: 25px;
 }
+.textspacer {
+    height: 5px;
+}
 
 /*
 body  {
