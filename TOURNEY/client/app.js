@@ -23,6 +23,7 @@ Template.body.helpers({
 });
 
 Template.body.events({
+    /*
     "click .tourney" : function () {
         Session.set("templateName", "input");
     },
@@ -31,7 +32,7 @@ Template.body.events({
     },
     "click .info" : function () {
         Session.set("templateName", "info");
-    }
+    }*/
 });
 
 // adds index to each item

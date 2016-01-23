@@ -21,6 +21,8 @@ Template.addparticipant.events({
         }
     },
     "click .go_button": function (event, template) {
+        console.log("DEBUG: go_button clicked!");
+
         var newParticipant = {
             participant_name: template.$('#sname').val(),
             participant_tier: template.$('#stier').val(),

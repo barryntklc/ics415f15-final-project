@@ -1,4 +1,10 @@
 <template name="input">
-  {{ >addparticipant }}
-  <div class="spacer"></div>
+    {{#if admin}}
+        {{ >createteams}}
+        {{ >promoteuser}}
+        <div class="spacer"></div>
+    {{/if}}
+
+    {{ >addparticipant }}
+    <div class="spacer"></div>
 </template>

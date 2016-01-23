@@ -10,10 +10,11 @@ Template.promoteuser.events({
         console.log("DEBUG: promote_button clicked!");
 
         var given_email = template.$('#given_email').val();
+        var currentUserId = Meteor.userId();
 
         if (given_email.trim() != "") { //if email is not null
-            //TODO Meteor.call is being run AFTER the method completes
-            Meteor.call("emailExists", given_email, function (error, data) {
+            //TODO Meteor.call is being run AFTER the method completes;
+            Meteor.call("emailExists", given_email, currentUserId, function (error, data) {
                 if (error) {
                     console.log(error);
                 }
@@ -35,7 +36,7 @@ Template.promoteuser.events({
         } else {
             alert("ERROR: Please enter an email!");
         }
-        template.$('#given_email').val("");
+        //template.$('#given_email').val("");
     },
 
     "mousedown .promote_button": function (event, template) {

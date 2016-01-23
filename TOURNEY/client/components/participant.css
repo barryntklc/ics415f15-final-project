@@ -5,3 +5,9 @@
     background-color: white;
     position: relative;
 }
+
+/*TODO Either re-align delete button or create a custom delete button*/
+/*probably create a custom delete button*/
+.delete {
+    float: right;
+}
